@@ -1,0 +1,7 @@
+export default function CartStyle(){
+    return(
+        <div>
+            <p>CartStyle</p>
+        </div>
+    )
+}
