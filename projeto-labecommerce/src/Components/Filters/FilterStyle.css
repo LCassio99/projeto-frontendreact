@@ -1,0 +1,13 @@
+.Filter{
+    border: 1px black solid;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    width: 25%;
+    text-align: left;
+}
+
+

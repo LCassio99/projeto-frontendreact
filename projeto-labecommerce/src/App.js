@@ -1,18 +1,15 @@
 import Filters from './Components/Filters/Filters.js';
-import Body from './Components/ProductList/Home/Body.js';
-import Footer from './Components/ProductList/Home/Footer.js';
-import Header from './Components/ProductList/Home/Header.js';
-import Navigation from './Components/ProductList/Home/Navigation.js';
+import ProductList from './Components/ProductList/ProductList.js';
 import Cart from './Components/ShoppingCart/Cart/Cart.js';
+import './App.css'
+import Button from './Components/Button/Button.js';
 
 export default function App() {
+  const botaoRemove = 'Remover'
   return (
     <div className='App'>
       <Filters />
-      <Body />
-      <Footer />
-      <Header />
-      <Navigation />
+      <ProductList />
       <Cart />
     </div>
   );
