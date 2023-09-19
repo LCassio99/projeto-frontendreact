@@ -1,7 +1,9 @@
-export default function CartStyle(){
-    return(
-        <div>
-            <p>CartStyle</p>
-        </div>
-    )
+.Cart{
+    border: 1px solid black;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 15px 0 15px;
 }

@@ -1,0 +1,17 @@
+.Upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Items{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.ProductList{
+    margin-top: 20px;
+    width: 100%;
+    height: 80vh;
+}
